@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Portafolio | Andrés Jacobowitz</title>
+</head>
+
+<body id="home" class="inicio">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" tabindex="1">
+                    <img href="#home" src="img/logo.png" alt="Logo Andres Jacobowitz color blanco" class="logo img-fluid logo-blanco">
+                    <img href="#home" src="img/logo-hover.png" alt="Logo Andres Jacobowitz color oro" class="logo img-fluid logo-dorado">
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" tabindex="2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link anchor-link" href="#habilidades" tabindex="3">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anchor-link" href="#experiencia" tabindex="4">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anchor-link" href="#proyectos" tabindex="5">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anchor-link" href="#idiomas" tabindex="6">Idiomas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link anchor-link" href="#contacto" tabindex="7">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="sectionHero">
+        <div class="container">
+            <div class="row justify-content-center align-items-center row-hero">
+                <div class="contenido-hero col-lg-6 my-5 wow animate__animated animate__fadeInLeft">
+                    <h1 class="titulo-hero">Andrés Jacobowitz</h1>
+                    <p class="titulo-hero fw-bold">Web Developer | Portafolio</p>
+                    <a href="resources/CV-Andres-Jacobowitz.pdf" class="button" target="blank" tabindex="8">Curriculum <i
+                            class="fa-regular fa-file-pdf"></i></a>
+                </div>
+                <div class="contenido-hero-img col-lg-6">
+                    <img src="img/hero-laptop.png" alt="ilustración laptop"
+                        class="img-fluid wow animate__animated animate__fadeInRight">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid sectionCarousel">
+        <div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" aria-current="true"
+                    class="active" aria-label="Slide 1" tabindex="9"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2" tabindex="10"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3" tabindex="11"></button>
+            </div>
+            <div class="carousel-inner">
+                <!--Slide 1-->
+                <div class="carousel-item fade-slide active" data-bs-interval="5000">
+                </div>
+
+                <!--Slide 2-->
+                <div class="carousel-item fade-slide" data-bs-interval="5000">
+                </div>
+
+                <!--Slide 3-->
+                <div class="carousel-item fade-slide" data-bs-interval="5000">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev" tabindex="12">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </span>
+                <span hidden>Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next" tabindex="13">
+                <span class="carousel-control-next-icon" aria-hidden="true">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </span>
+                <span hidden>Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="habilidades" class="container py-5 seccionCarousel">
+        <h2 class="text-center py-5">Habilidades</h2>
+        <div class="owl-carousel">
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/html5-logo.jpg" class="carousel-img" alt="HTML5" tabindex="14">
+                    <h3 class="text-center">HTML5</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/css3-logo.jpg" class="carousel-img" alt="CSS3" tabindex="15">
+                    <h3 class="text-center">CSS3</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/javascript-logo.jpg" class="carousel-img" alt="JavaScript" tabindex="16">
+                    <h3 class="text-center">JavaScript</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/wordpress-logo.jpg" class="carousel-img" alt="Wordpress" tabindex="17">
+                    <h3 class="text-center">WordPress</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/joomla-logo.jpg" class="carousel-img" alt="Joomla!" tabindex="18">
+                    <h3 class="text-center">Joomla!</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/bootstrap-logo.jpg" class="carousel-img" alt="bootstrap" tabindex="19">
+                    <h3 class="text-center">Bootstrap</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/jquery-logo.jpg" class="carousel-img" alt="jquery" tabindex="20">
+                    <h3 class="text-center">jQuery</h3>
+                </div>
+            </div>
+
+            <div class="containerSlider">
+                <div class="sliderContent">
+                    <img src="img/adobe-logo.jpg" class="carousel-img" alt="adobe creative cloud" tabindex="21">
+                    <h3 class="text-center">Adobe Creative Cloud</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experiencia" class="experiencia pb-5">
+        <div class="container-fluid">
+            <div class="container">
+                <h2 class="text-center py-5">Experiencia</h2>
+                <div class="row pb-5">
+                    <div class="col-lg-6 pb-5">
+                        <div class="accordion accordion-flush" id="accordionFlush1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse1" aria-expanded="false"
+                                        aria-controls="flush-collapse1" tabindex="22">
+                                        <h3>Freelance</h3>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapse1" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <h3 class="titulo-acc">Black Jaguar</h3>
+                                            <p>2019 | Escazú, San José </p>
+                                            <p>Desarrollo de Sitios + Soluciones Web (Emprendimiento)</p>
+                                            <p>Celular: +506 7103-0960</p>
+                                            <a href="https://blackjaguarcr.com" target="blank">https://blackjaguarcr.com
+                                                (No
+                                                Activo)</a>
+                                        </ul>
+                                        <ul>
+                                            <h3 class="titulo-acc">Jacobowitz Devs</h3>
+                                            <p>2020- | Escazú, San José</p>
+                                            <p>Agencia Desarrollo de Sitios + Soluciones Web (Sucesor de Black Jaguar)
+                                            </p>
+                                            <p>Celular: +506 7103-0960</p>
+                                            <a href="https://jacobowitzdevs.com"
+                                                target="blank">https://jacobowitzdevs.com</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pb-5">
+                        <div class="accordion accordion-flush" id="accordionFlush2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapse2" aria-expanded="false"
+                                        aria-controls="flush-collapse2" tabindex="23">
+                                        <h3>Empresarial</h3>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapse2" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlush">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <h3 class="titulo-acc">Agencia White&Bold</h3>
+                                            <p>2010 - 2013 | Paseo Colón, San José</p>
+                                            <p>Desarrollador Web + Gráfico</p>
+                                            <p>Referencia: Mauricio Martinez, Propietario</p>
+                                            <p>Celular: +506 7110-4470</p>
+                                        </ul>
+                                        <ul>
+                                            <h3 class="titulo-acc">WEBMAX S.A.</h3>
+                                            <p>2017 - 2019 | Escazú, San José</p>
+                                            <p>Desarrollador Web + Gráfico</p>
+                                            <p>Referencia: Adela Ruffatti, Propietaria</p>
+                                            <p>Celular: +506 8995-1247</p>
+                                            <a href="https://www.webmax.co.cr/">https://www.webmax.co.cr/</a>
+                                        </ul>
+                                        <ul>
+                                            <h3 class="titulo-acc">Arweb S.A.</h3>
+                                            <p>2019-2020 | Sabana Oeste, San José</p>
+                                            <p>Desarrollador Web</p>
+                                            <p>+506 2220-0751 / +506 2232-1012</p>
+                                            <a href="https://www.arweb.com/" target="blank">https://www.arweb.com/</a>
+                                        </ul>
+                                        <ul>
+                                            <h3 class="titulo-acc">Agencia Work By Cardinal</h3>
+                                            <p>2020- | Escazú, San José</p>
+                                            <p>Desarrollador Web + Gráfico</p>
+                                            <p>Referencia: Mauricio Martinez, Propietario</p>
+                                            <p>Celular: +506 7110-4470</p>
+                                            <a href="https://www.workbycardinal.com/"
+                                                target="blank">https://www.workbycardinal.com/</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 text-center">
+                            <img src="img/bio-perfil.jpg" alt="foto de perfil para biografia"
+                                class="img-fluid bio-perfil">
+                        </div>
+                        <div class="col-lg-8 parr-bio">
+                            <h2 class="bio-titulo">Bio</h2>
+                            <p class="pb-5">Desarrollador, diseñador web y diseñador gráfico con más de 10 años de
+                                experiencia en ámbito. Desarrollo
+                                con CMSs y código personalizado. Experiencia en lenguajes de front-end y librerías.
+                                Conocimiento amplio
+                                con programas de Adobe Creative Cloud. Experiencia en community management y redes
+                                sociales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <div class="container-fluid">
+            <div class="container">
+                <h2 class="text-center py-5">Proyectos</h2>
+                <div class="row collage-gallery py-5">
+                    <div class="col">
+                        <img src="img/proyectos-1.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Independent Model Management" alt="Independent Model Management" tabindex="24">
+                        <p>Independent Model Management</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-2.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Grupo Pico Blanco" alt="Grupo Pico Blanco" tabindex="25">
+                        <p>Grupo Pico Blanco</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-3.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Marlo Trejos" alt="Marlo Trejos" tabindex="26">
+                        <p>Marlo Trejos</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-4.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Enduro House" alt="Enduro House" tabindex="27">
+                        <p>Enduro House</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-5.jpg" class="img-fluid" data-fancybox="gallery" data-caption="Avacorp"
+                            alt="Avacorp" tabindex="28">
+                        <p>Avacorp</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-13.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="The Vitamin Shoppe" alt="The Vitamin Shoppe" tabindex="29">
+                        <p>The Vitamin Shoppe</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-7.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Academia Bounce" alt="Academia Bounce" tabindex="30">
+                        <p>Academia Bounce</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-8.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Garro Law" alt="Garro Law" tabindex="31">
+                        <p>Garrow Law</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-9.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Chuken Abogados" alt="Chuken Abogados" tabindex="32">
+                        <p>Chuken Abogados</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-10.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Sourcing Logistics" alt="Sourcing Logistics" tabindex="33">
+                        <p>Sourcing Logistics</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-11.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Santiago Luna Catering" alt="Santiago Luna Catering" tabindex="34">
+                        <p>Santiago Luna Catering</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-12.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Salt Stick" alt="Salt Stick" tabindex="35">
+                        <p>Salt Stick</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-6.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Avenue Santa Barbara" alt="Avenue Santa Barbara" tabindex="36">
+                        <p>Avenue Santa Barbara</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-14.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Casa Luna" alt="Casa Luna" tabindex="37">
+                        <p>Casa Luna</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-15.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Attali Escazú" alt="Attali Escazu" tabindex="38">
+                        <p>Attali Escazú</p>
+                    </div>
+                    <div class="col">
+                        <img src="img/proyectos-16.jpg" class="img-fluid" data-fancybox="gallery"
+                            data-caption="Atali Desarrollos" alt="Attali Desarrollos" tabindex="39">
+                        <p>Attali Desarrollos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="idiomas" class="idiomas">
+        <div class="container-fluid">
+            <div class="container">
+                <h2 class="text-center py-5">Idiomas</h2>
+                <div class="row">
+                    <div class="col-lg-6 text-center">
+                        <img src="img/es.jpg" class="img-fluid esen" alt="imagen idioma español">
+                        <p class="pb-5">Idioma nativo. Escrito y hablado.</p>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img src="img/en.jpg" class="img-fluid esen" alt="imagen idioma ingles">
+                        <p class="pb-5">Segundo idioma. Escrito y hablado, completamente bilingüe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="container-fluid contacto py-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <h2 class="container-fluid py-5">
+                        Envíeme su mensaje</h2>
+                    <p class="txt-contacto">Envíeme un mensaje para empezar su propio proyecto.
+                        Gracias.</p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-6">
+                    <img src="img/contacto.jpg" class="img-fluid rounded-1 img-contacto"
+                        alt="fotografia contacto de laptop">
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="nombre">Nombre:</label>
+                                        <input type="text" id="nombre" class="form-control"
+                                            required tabindex="40">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" class="form-control"
+                                            required tabindex="41">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="telefono">Teléfono:</label>
+                                        <input type="number" id="telefono" class="form-control"
+                                            required tabindex="42">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="asunto">Asunto:</label>
+                                        <input type="text" id="asunto" class="form-control"
+                                            required tabindex="43">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="mensaje">Mensaje:</label>
+                                        <textarea id="mensaje" class="form-control"
+                                            required tabindex="44"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row boton-enviar-form">
+                                <div class="col-lg-12 pb-5">
+                                    <button class="enviar" type="submit" tabindex="45">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <a href="#home" class="botonScrollTop" tabindex="46" aria-label="Ir al incio de la página">
+        <i class="fas fa-angle-up"></i>
+        <span hidden>Ir al inicio</span>
+    </a>
+
+    <a href="https://wa.me/50671030960/?text=Hola ¿En qué te puedo ayudar hoy?" target="blank" tabindex="47">
+        <div class="iconWa">
+            <i class="fa brands fa-whatsapp"></i>
+            <span hidden>Enviar mensaje por Whatsapp</span>
+        </div>
+    </a>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="#home"><img src="img/logo-hover.png" class="img-fluid logo-footer"
+                                alt="logo Andres Jacobowitz color oro" tabindex="48"></a>
+                                <span hidden>Logo Andres Jacobowitz color oro</span>
+                    </div>
+                    <div class="col-lg-6 col-derecha">
+                        <ul>
+                            <li><a href="resources/CV-Andres-Jacobowitz.pdf" target="blank" tabindex="49">Andrés Jacobowitz |
+                                    Curriculum</a></li>
+                            <li><a href="andresjac7@gmail.com" tabindex="50">andresjac7@gmail.com</a></li>
+                            <li>
+                                <p>Escazú, San José, Costa Rica</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <section class="sub-footer">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-lg-12 text-center">
+                        <a href="https://www.linkedin.com/in/andr%C3%A9s-jacobowitz-7a56a9171/" target="blank"><i
+                                class="fa-brands fa-linkedin" alt="enlace a linkedin" tabindex="51"></i><span hidden>Icono LinkedIn</span></a>
+                        <a href="https://codepen.io/andres-jacobowitz" alt="enlace a codepen" target="blank"><i
+                                class="fa-brands fa-codepen"></i><span hidden tabindex="52">Icono Codepen</span></a>
+                        <a href="https://github.com/andresjac7" alt="enlace a github" target="blank"><i
+                                class="fa-brands fa-github"></i><span hidden tabindex="53">Icono Github</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://kit.fontawesome.com/25589beaab.js" crossorigin="anonymous"></script>
+    <script src="js/galeria.js"></script>
+    <script src="js/habilidades.js"></script>
+    <script src="js/scroll-arreglo-menu.js"></script>
+</body>
+
+</html>
